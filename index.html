@@ -8,21 +8,16 @@
   <title>Tinner - Swipe To Bite</title>
 
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
   <link rel="stylesheet" href="./assets/css/style.css">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&family=Quicksand:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <header class="header" data-header>
     <div class="container">
-
       <a href="#" class="logo" style="font-size: 24px; font-weight: 800; color: #FF5E3A; text-decoration: none;">
         Tinner<span style="color: #111827;">.</span>
       </a>
@@ -33,38 +28,19 @@
 
       <nav class="navbar">
         <ul class="navbar-list">
-
-          <li>
-            <a href="#hero" class="navbar-link">Home</a>
-          </li>
-
-          <li>
-            <a href="#about" class="navbar-link">The Solution</a>
-          </li>
-
-          <li>
-            <a href="#features" class="navbar-link">MVP Features</a>
-          </li>
-
-          <li>
-            <a href="#team" class="navbar-link">Tech Stack</a>
-          </li>
-
-          <li>
-            <a href="#contact" class="navbar-link">Contact</a>
-          </li>
-
+          <li><a href="#hero" class="navbar-link">Home</a></li>
+          <li><a href="#about" class="navbar-link">The Solution</a></li>
+          <li><a href="#features" class="navbar-link">Features</a></li>
+          <li><a href="#tech" class="navbar-link">Tech Stack</a></li>
+          <li><a href="#team" class="navbar-link">Team</a></li>
         </ul>
 
         <div class="header-actions">
-          <a href="https://github.com/" target="_blank" class="header-action-link">GitHub Repo</a>
-          <a href="#" class="header-action-link" style="background: #FF5E3A; color: white; padding: 10px 20px; border-radius: 8px;">Case Study</a>
+          <a href="https://github.com/pntayorange/Showcase" target="_blank" class="header-action-link">GitHub Repo</a>
         </div>
       </nav>
-
     </div>
   </header>
-
 
   <main>
     <article>
@@ -73,21 +49,20 @@
         <div class="container">
 
           <div class="hero-content">
-            <h1 class="h1 hero-title">Curing Analysis Paralysis.</h1>
+            <h1 class="h1 hero-title">End the "What's for dinner?" debate.</h1>
 
             <p class="hero-text">
               "Swipe To Bite" - Solve the "Paradox of Choice". Go from opening the App to deciding on a meal in under 5 minutes.
             </p>
 
             <p class="form-text">
-              <span>🍔</span> Stop arguing over dinner. Join the waitlist today.
+              <span>🍔</span> Stop arguing over dinner. Discover food visually.
             </p>
 
-            <form action="" class="hero-form">
-              <input type="email" name="email" required placeholder="Enter Your Email" class="email-field">
-
-              <button type="submit" class="btn btn-primary" style="background: #FF5E3A; border-color: #FF5E3A;">Get Access</button>
-            </form>
+            <div class="btn-group" style="display: flex; gap: 15px; margin-top: 20px;">
+                <a href="#features" class="btn btn-primary" style="background: #FF5E3A; border-color: #FF5E3A; text-decoration: none;">View Features</a>
+                <a href="https://github.com/pntayorange/Showcase" target="_blank" class="btn btn-outline" style="color: #FF5E3A; border-color: #FF5E3A; text-decoration: none;">View Source Code</a>
+            </div>
           </div>
 
           <figure class="hero-banner">
@@ -97,94 +72,38 @@
         </div>
       </section>
 
-
       <section class="about" id="about">
         <div class="container">
-
           <div class="about-content">
-
             <div class="about-icon" style="color: #FF5E3A; background: #FFF0ED;">
-              <ion-icon name="bulb"></ion-icon>
+              <ion-icon name="warning-outline"></ion-icon>
             </div>
-
-            <h2 class="h2 about-title">Tinner's Solution</h2>
-
+            <h2 class="h2 about-title">The Pain Point</h2>
             <p class="about-text">
-              In modern life, "What should we eat today?" has become a daily obsession. Tinner solves this by simplifying the decision-making process to the maximum.
+              Current food delivery apps overwhelm users with endless scrollable lists, causing "Analysis Paralysis" and Decision Fatigue. Tinner solves this by simplifying the decision-making process to the maximum.
             </p>
-
-            <button class="btn btn-outline" style="color: #FF5E3A; border-color: #FF5E3A;">View Wiki</button>
-
           </div>
 
           <ul class="about-list">
-
             <li>
               <div class="about-card">
-
                 <div class="card-icon" style="color: #FF5E3A; background: #FFF0ED;">
                   <ion-icon name="phone-portrait-outline"></ion-icon>
                 </div>
-
                 <h3 class="h3 card-title">Single-View Interface</h3>
-
-                <p class="card-text">
-                  Only displays one dish at a time. Users are not distracted by other options, minimizing information overload.
-                </p>
-
+                <p class="card-text">Only displays one dish at a time. No distractions, minimizing information overload.</p>
               </div>
             </li>
-
             <li>
               <div class="about-card">
-
                 <div class="card-icon" style="color: #FF5E3A; background: #FFF0ED;">
                   <ion-icon name="game-controller-outline"></ion-icon>
                 </div>
-
                 <h3 class="h3 card-title">Gamified Experience</h3>
-
-                <p class="card-text">
-                  "Swipe Left (Pass) - Swipe Right (Like)". This turns stressful food selection into a fun and engaging game.
-                </p>
-
+                <p class="card-text">"Swipe Left - Swipe Right". Turns stressful food selection into a fun game.</p>
               </div>
             </li>
-
-            <li>
-              <div class="about-card">
-
-                <div class="card-icon" style="color: #FF5E3A; background: #FFF0ED;">
-                  <ion-icon name="aperture-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3 card-title">Decision Maker Tool</h3>
-
-                <p class="card-text">
-                  The "Wheel of Destiny" feature randomly selects one restaurant from your liked list, helping to "close the deal" instantly.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="about-card">
-
-                <div class="card-icon" style="color: #FF5E3A; background: #FFF0ED;">
-                  <ion-icon name="eye-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3 card-title">Visual-First</h3>
-
-                <p class="card-text">
-                  Build an interface focused purely on food imagery to stimulate the appetite ("Eat with your eyes").
-                </p>
-
-              </div>
-            </li>
-
           </ul>
-
         </div>
       </section>
 
@@ -192,327 +111,130 @@
       <section class="features" id="features">
         <div class="container">
 
-          <h2 class="h2 section-title">Project Purpose</h2>
-
-          <p class="section-text">
-            Designed to completely remove the friction of the Choice Matrix and the Paradox of Choice in food discovery.
-          </p>
+          <h2 class="h2 section-title">Core MVP Features</h2>
+          <p class="section-text">From opening the app to deciding in under 5 minutes.</p>
 
           <div class="features-wrapper">
-
             <figure class="features-banner">
-              <img src="./assets/images/features-img-1.png" alt="Pain Point illustration">
+              <img src="./assets/images/features-img-1.png" alt="Swipe to Match Screenshot">
             </figure>
-
             <div class="features-content">
-
               <p class="features-content-subtitle" style="color: #FF5E3A;">
-                <ion-icon name="warning-outline"></ion-icon>
-                <span>THE PAIN POINT</span>
+                <ion-icon name="star-outline"></ion-icon><span>FEATURE 1</span>
               </p>
-
-              <h3 class="features-content-title">
-                The <strong>Paradox</strong> of <strong>Choice</strong>.
-              </h3>
-
-              <p class="features-content-text">
-                Current food delivery apps display lists of hundreds of restaurants. On average, users spend 15-20 minutes just scrolling and debating, often leading to choosing a random unsatisfactory dish or skipping the meal entirely.
-              </p>
-
-              <ul class="features-list">
-
-                <li class="features-list-item">
-                  <ion-icon name="checkmark-circle" style="color: #FF5E3A;"></ion-icon>
-                  <p>Choice Matrix (Information Overload).</p>
-                </li>
-
-                <li class="features-list-item">
-                  <ion-icon name="checkmark-circle" style="color: #FF5E3A;"></ion-icon>
-                  <p>Time-Consuming daily obsession.</p>
-                </li>
-
-              </ul>
-
-              <div class="btn-group">
-                <button class="btn btn-primary" style="background: #FF5E3A; border-color: #FF5E3A;">Read Problem</button>
-              </div>
-
+              <h3 class="features-content-title"><strong>Swipe-to-Match</strong> Logic.</h3>
+              <p class="features-content-text">Users swipe left (pass) or right (like) on food images. Upon liking a dish, the application immediately reveals the corresponding restaurant that serves it.</p>
             </div>
-
           </div>
 
           <div class="features-wrapper">
-
             <figure class="features-banner">
-              <img src="./assets/images/features-img-2.png" alt="MVP illustration">
+              <img src="./assets/images/features-img-2.png" alt="Restaurant Info Screenshot">
             </figure>
-
             <div class="features-content">
-
               <p class="features-content-subtitle" style="color: #FF5E3A;">
-                <ion-icon name="star-outline"></ion-icon>
-                <span>CORE MVP</span>
+                <ion-icon name="restaurant-outline"></ion-icon><span>FEATURE 2</span>
               </p>
-
-              <h3 class="features-content-title">
-                From opening to <strong>deciding</strong> in under <strong>5 minutes</strong>.
-              </h3>
-
-              <p class="features-content-text">
-                Focusing on 2 core features that fully resolve the main User Flow, delivering a seamless, "Visual-first" interface that is intuitive and easy to use for non-tech-savvy users.
-              </p>
-
-              <ul class="features-list">
-
-                <li class="features-list-item">
-                  <ion-icon name="scan-outline" style="color: #FF5E3A;"></ion-icon>
-                  <p>Swipe-to-Match Logic reveals restaurants instantly.</p>
-                </li>
-
-                <li class="features-list-item">
-                  <ion-icon name="restaurant-outline" style="color: #FF5E3A;"></ion-icon>
-                  <p>Visual Restaurant Info Cards for the final decision.</p>
-                </li>
-
-              </ul>
-
+              <h3 class="features-content-title">Visual <strong>Restaurant Info</strong> Cards.</h3>
+              <p class="features-content-text">Visually displays detailed information about the matched restaurant, including food images, address, opening hours, and basic details for the final decision.</p>
             </div>
-
           </div>
 
         </div>
       </section>
 
 
-      <section class="blog" id="team">
+      <section class="blog" id="tech">
         <div class="container">
-
-          <h2 class="h2 section-title">Project Highlights</h2>
-
-          <p class="section-text">
-            Developed for the CO3043-PTAD course, utilizing modern frameworks and design principles.
-          </p>
+          <h2 class="h2 section-title">Tech Stack</h2>
+          <p class="section-text">The core technologies powering the Tinner project for CO3043-PTAD.</p>
 
           <ul class="blog-list">
-
             <li>
-              <div class="blog-card">
-
-                <figure class="blog-banner">
-                  <img src="./assets/images/blog-banner-1.jpg" alt="Figma Design">
-                </figure>
-
-                <div class="blog-meta">
-                  <span>
-                    <ion-icon name="color-palette-outline" style="color: #FF5E3A;"></ion-icon>
-                    <p>Figma</p>
-                  </span>
-                </div>
-
-                <h3 class="blog-title">UI/UX Design Concept</h3>
-
-                <p class="blog-text">
-                  Complete design system, typography, and interactive prototypes built entirely on Figma.
-                </p>
-
+              <div class="blog-card" style="text-align: center; padding: 30px;">
+                <ion-icon name="server-outline" style="font-size: 60px; color: #FF5E3A;"></ion-icon>
+                <h3 class="blog-title" style="margin-top: 20px;">Java & Spring Boot</h3>
+                <p class="blog-text">Robust backend architecture managed via Maven.</p>
               </div>
             </li>
-
             <li>
-              <div class="blog-card">
-
-                <figure class="blog-banner">
-                  <img src="./assets/images/blog-banner-2.jpg" alt="Java Backend">
-                </figure>
-
-                <div class="blog-meta">
-                  <span>
-                    <ion-icon name="server-outline" style="color: #FF5E3A;"></ion-icon>
-                    <p>Spring Boot</p>
-                  </span>
-                </div>
-
-                <h3 class="blog-title">Robust Backend API</h3>
-
-                <p class="blog-text">
-                  A highly scalable RESTful API built with Java and Spring Boot, managed via Maven.
-                </p>
-
+              <div class="blog-card" style="text-align: center; padding: 30px;">
+                <ion-icon name="color-palette-outline" style="font-size: 60px; color: #FF5E3A;"></ion-icon>
+                <h3 class="blog-title" style="margin-top: 20px;">Figma</h3>
+                <p class="blog-text">Complete UI/UX design system and visual prototypes.</p>
               </div>
             </li>
-
             <li>
-              <div class="blog-card">
-
-                <figure class="blog-banner">
-                  <img src="./assets/images/blog-banner-3.jpg" alt="GitHub Pages">
-                </figure>
-
-                <div class="blog-meta">
-                  <span>
-                    <ion-icon name="logo-github" style="color: #FF5E3A;"></ion-icon>
-                    <p>GitHub Pages</p>
-                  </span>
-                </div>
-
-                <h3 class="blog-title">Static Deployment</h3>
-
-                <p class="blog-text">
-                  Live project documentation and landing page hosted seamlessly via GitHub Pages.
-                </p>
-
+              <div class="blog-card" style="text-align: center; padding: 30px;">
+                <ion-icon name="logo-github" style="font-size: 60px; color: #FF5E3A;"></ion-icon>
+                <h3 class="blog-title" style="margin-top: 20px;">GitHub Pages</h3>
+                <p class="blog-text">Static deployment and source code management.</p>
               </div>
             </li>
-
           </ul>
-
         </div>
       </section>
 
 
-      <section class="contact" id="contact">
+      <section class="contact" id="team" style="background-color: #FFF0ED; padding: 80px 0;">
         <div class="container">
-
-          <h2 class="h2 section-title">Get in Touch</h2>
-
-          <p class="section-text">
-            Have questions about the Tinner project or our CO3043-PTAD assignment? Drop us a message!
-          </p>
-
-          <div class="contact-wrapper">
-
-            <form action="" class="contact-form">
-
-              <div class="wrapper-flex">
-
-                <div class="input-wrapper">
-                  <label for="name">Name*</label>
-                  <input type="text" name="name" id="name" required placeholder="Enter Your Name" class="input-field">
-                </div>
-
-                <div class="input-wrapper">
-                  <label for="email">Email*</label>
-                  <input type="email" name="email" id="email" required placeholder="Enter Your Email" class="input-field">
-                </div>
-
-              </div>
-
-              <label for="message">Message*</label>
-              <textarea name="message" id="message" required placeholder="Type Your Message" class="input-field"></textarea>
-
-              <button type="submit" class="btn btn-primary" style="background: #FF5E3A; border-color: #FF5E3A;">
-                <span>Send Message</span>
-                <ion-icon name="paper-plane-outline"></ion-icon>
-              </button>
-
-            </form>
-
-            <ul class="contact-list">
-
-              <li>
-                <a href="#" class="contact-link">
-                  <ion-icon name="logo-github" style="color: #FF5E3A;"></ion-icon>
-                  <span>: github.com/your-tinner-repo</span>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="contact-link">
-                  <ion-icon name="globe-outline" style="color: #FF5E3A;"></ion-icon>
-                  <span>: tinner-project.github.io</span>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="contact-link">
-                  <ion-icon name="location-outline" style="color: #FF5E3A;"></ion-icon>
-                  <address>: Ho Chi Minh City University of Technology (HCMUT)</address>
-                </a>
-              </li>
-
-            </ul>
-
+          <h2 class="h2 section-title" style="text-align: center;">Team Members</h2>
+          <p class="section-text" style="text-align: center; margin-bottom: 40px;">CO3043-PTAD Project Development Team</p>
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+            <div style="background: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; display: flex; align-items: center; justify-content: center;">
+                <strong style="color: #111827; font-size: 18px;">Phan Đình Khang</strong>
+            </div>
+            <div style="background: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; display: flex; align-items: center; justify-content: center;">
+                <strong style="color: #111827; font-size: 18px;">Âu Nguyễn Mạnh Hùng</strong>
+            </div>
+            <div style="background: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; display: flex; align-items: center; justify-content: center;">
+                <strong style="color: #111827; font-size: 18px;">Phạm Ngọc Tây</strong>
+            </div>
+            <div style="background: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; display: flex; align-items: center; justify-content: center;">
+                <strong style="color: #111827; font-size: 18px;">Trương Thanh Nhân</strong>
+            </div>
+            <div style="background: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; display: flex; align-items: center; justify-content: center;">
+                <strong style="color: #111827; font-size: 18px;">Nguyễn Tiến Nam</strong>
+            </div>
           </div>
-
         </div>
       </section>
 
     </article>
   </main>
 
-
   <footer>
-
     <div class="footer-top">
       <div class="container">
-
         <div class="footer-brand">
-
           <a href="#" class="logo" style="font-size: 28px; font-weight: 800; color: #FF5E3A; text-decoration: none;">
             Tinner<span style="color: #ffffff;">.</span>
           </a>
-
           <p class="footer-text">
             Curing Analysis Paralysis in food discovery, one swipe at a time. A UI/UX Concept & Development Project.
           </p>
-
-          <ul class="social-list">
-            <li>
-              <a href="#" class="social-link"><ion-icon name="logo-github"></ion-icon></a>
-            </li>
-            <li>
-              <a href="#" class="social-link"><ion-icon name="logo-behance"></ion-icon></a>
-            </li>
-            <li>
-              <a href="#" class="social-link"><ion-icon name="logo-figma"></ion-icon></a>
-            </li>
-          </ul>
-
         </div>
-
+        
         <div class="footer-link-box">
-
-          <ul class="footer-list">
-            <li><p class="footer-item-title">PROJECT</p></li>
-            <li><a href="#hero" class="footer-link">Home</a></li>
-            <li><a href="#about" class="footer-link">The Solution</a></li>
-            <li><a href="#features" class="footer-link">MVP Features</a></li>
-          </ul>
-
           <ul class="footer-list">
             <li><p class="footer-item-title">RESOURCES</p></li>
-            <li><a href="#" class="footer-link">GitHub Repository</a></li>
-            <li><a href="#" class="footer-link">Behance Case Study</a></li>
+            <li><a href="https://github.com/pntayorange/Showcase" class="footer-link">GitHub Repository</a></li>
             <li><a href="#" class="footer-link">Figma Prototype</a></li>
           </ul>
-
-          <ul class="footer-list">
-            <li><p class="footer-item-title">TEAM</p></li>
-            <li><a href="#" class="footer-link">CO3043-PTAD</a></li>
-            <li><a href="#" class="footer-link">9 Members</a></li>
-            <li><a href="#contact" class="footer-link">Contact Us</a></li>
-          </ul>
-
         </div>
-
       </div>
     </div>
-
     <div class="footer-bottom">
       <div class="container">
-        <p class="copyright">
-          &copy; 2024 <a href="#">Tinner Team</a>. All Right Reserved. Template based on Landio.
-        </p>
+        <p class="copyright">&copy; 2026 Tinner Team. All Right Reserved.</p>
       </div>
     </div>
-
   </footer>
 
   <script src="./assets/js/script.js"></script>
-
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
-
 </html>
