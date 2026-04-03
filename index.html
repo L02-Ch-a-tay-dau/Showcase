@@ -12,6 +12,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .about-card {
+      border: 1px solid #f3f4f6;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      border-radius: 16px;
+      padding: 30px 24px;
+      background-color: #ffffff;
+      transition: all 0.3s ease; 
+    }
+    
+    .about-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(255, 94, 58, 0.15);
+      border-color: #FF5E3A;
+    }
+  </style>
 </head>
 
 <body>
@@ -151,24 +167,24 @@
 
           <ul class="blog-list">
             <li>
-              <div class="blog-card" style="text-align: center; padding: 30px;">
-                <ion-icon name="server-outline" style="font-size: 60px; color: #FF5E3A;"></ion-icon>
-                <h3 class="blog-title" style="margin-top: 20px;">Java & Spring Boot</h3>
-                <p class="blog-text">Robust backend architecture managed via Maven.</p>
+              <div class="blog-card" style="padding: 40px 20px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                <ion-icon name="server-outline" style="font-size: 64px; color: #FF5E3A; margin-bottom: 24px; display: block;"></ion-icon>
+                <h3 class="blog-title" style="margin-bottom: 12px;">Java & Spring Boot</h3>
+                <p class="blog-text" style="margin: 0;">Robust backend architecture managed via Maven.</p>
               </div>
             </li>
             <li>
-              <div class="blog-card" style="text-align: center; padding: 30px;">
-                <ion-icon name="color-palette-outline" style="font-size: 60px; color: #FF5E3A;"></ion-icon>
-                <h3 class="blog-title" style="margin-top: 20px;">Figma</h3>
-                <p class="blog-text">Complete UI/UX design system and visual prototypes.</p>
+              <div class="blog-card" style="padding: 40px 20px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                <ion-icon name="color-palette-outline" style="font-size: 64px; color: #FF5E3A; margin-bottom: 24px; display: block;"></ion-icon>
+                <h3 class="blog-title" style="margin-bottom: 12px;">Figma</h3>
+                <p class="blog-text" style="margin: 0;">Complete UI/UX design system and visual prototypes.</p>
               </div>
             </li>
             <li>
-              <div class="blog-card" style="text-align: center; padding: 30px;">
-                <ion-icon name="logo-github" style="font-size: 60px; color: #FF5E3A;"></ion-icon>
-                <h3 class="blog-title" style="margin-top: 20px;">GitHub Pages</h3>
-                <p class="blog-text">Static deployment and source code management.</p>
+              <div class="blog-card" style="padding: 40px 20px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                <ion-icon name="logo-github" style="font-size: 64px; color: #FF5E3A; margin-bottom: 24px; display: block;"></ion-icon>
+                <h3 class="blog-title" style="margin-bottom: 12px;">GitHub Pages</h3>
+                <p class="blog-text" style="margin: 0;">Static deployment and source code management.</p>
               </div>
             </li>
           </ul>
@@ -217,11 +233,7 @@
         </div>
         
         <div class="footer-link-box">
-          <ul class="footer-list">
-            <li><p class="footer-item-title">RESOURCES</p></li>
-            <li><a href="https://github.com/L02-Ch-a-tay-dau/Tinner/wiki" class="footer-link">GitHub Repository</a></li>
-            <li><a href="#" class="footer-link">Figma Prototype</a></li>
-          </ul>
+          <ul class="footer-list">igma
         </div>
       </div>
     </div>
