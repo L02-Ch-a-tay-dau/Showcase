@@ -14,18 +14,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     .about-card {
-      border: 1px solid #f3f4f6;
+      border: 2px solid #FF5E3A; 
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
       border-radius: 16px;
       padding: 30px 24px;
       background-color: #ffffff;
-      transition: all 0.3s ease; 
+      transition: all 0.3s ease;
     }
     
     .about-card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 15px 35px rgba(255, 94, 58, 0.15);
-      border-color: #FF5E3A;
+      box-shadow: 0 15px 35px rgba(255, 94, 58, 0.25);
+      background-color: #FF5E3A;
+    }
+    .about-card:hover .card-title,
+    .about-card:hover .card-text {
+      color: #ffffff !important;
+    }
+    .about-card:hover .card-icon {
+      background-color: rgba(255, 255, 255, 0.2) !important;
+      color: #ffffff !important;
     }
   </style>
 </head>
